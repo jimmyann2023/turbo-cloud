@@ -16,6 +16,8 @@
     "@changesets/cli": "^2.27.1",
     "turbo": "catalog:",
     "@types/node": "catalog:",
+    "@repo/eslint-config":"workspace:*",
+    "@repo/prettier-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "rimraf": "catalog:",
     "typescript": "catalog:",
