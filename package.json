@@ -1,4 +1,5 @@
 {
+  "name": "with-changesets",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -6,19 +7,40 @@
     "lint": "turbo lint",
     "clean": "turbo clean && rm -rf node_modules",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "changeset": "changeset",
+    "changeset": "pnpm exec changeset",
+    "check:type": "turbo run typecheck",
     "version-packages": "changeset version",
     "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "^2.3.1"
+    "turbo": "catalog:",
+    "@types/node": "catalog:",
+    "@repo/tsconfig": "workspace:*",
+    "rimraf": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vite": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
   },
-  "packageManager": "pnpm@8.15.6",
   "engines": {
-    "node": ">=18"
+    "node": ">=20.10.0",
+    "pnpm": ">=9.12.0"
   },
-  "name": "with-changesets"
+  "packageManager": "pnpm@9.14.2",
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "eslint": "*"
+      }
+    },
+    "overrides": {
+      "vue": "catalog:"
+    },
+    "neverBuiltDependencies": [
+      "canvas",
+      "node-gyp"
+    ]
+  }
 }
