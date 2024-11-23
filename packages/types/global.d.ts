@@ -7,16 +7,12 @@ declare module 'vue-router' {
   interface RouteMeta extends IRouteMeta {}
 }
 
-declare module  'vue-router'{
-  interface RouteMeta extends IRouteMeta{}
+export interface CloudSystemWebConfigRaw {
+  VITE_GLOB_API_URL: string;
 }
 
-export interface CloudSystemWebConfigRaw{
-  VITE_GLOB_API_URL: string
-}
-
-export interface ApplicationConfig{
-  apiURL: string
+export interface ApplicationConfig {
+  apiURL: string;
 }
 
 declare global {

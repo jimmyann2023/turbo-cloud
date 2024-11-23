@@ -1,1 +1,1 @@
-export type * from '@repo-core/typings'
+export type * from '@repo-core/typings';

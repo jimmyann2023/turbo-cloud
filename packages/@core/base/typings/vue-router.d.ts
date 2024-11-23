@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-imports */
 import type { RouteMeta as IRouteMeta } from '@repo-core/typings';
 
 import 'vue-router';
