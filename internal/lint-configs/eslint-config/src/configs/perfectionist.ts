@@ -76,17 +76,17 @@ export async function perfectionist(): Promise<Linter.Config[]> {
           {
             // Based on: https://vuejs.org/style-guide/rules-recommended.html#element-attribute-order
             customGroups: {
-              DEFINITION: '*(is|:is|v-is)',
-              LIST_RENDERING: 'v-for',
               CONDITIONALS: 'v-*(else-if|if|else|show|cloak)',
-              RENDER_MODIFIERS: 'v-*(pre|once)',
-              GLOBAL: '*(:id|id)',
-              UNIQUE: '*(ref|key|:ref|:key)',
-              SLOT: '*(v-slot|slot)',
-              TWO_WAY_BINDING: '*(v-model|v-model:*)',
+              CONTENT: 'v-*(html|text)',
+              DEFINITION: '*(is|:is|v-is)',
               // OTHER_DIRECTIVES e.g. 'v-custom-directive'
               EVENTS: '*(v-on|@*)',
-              CONTENT: 'v-*(html|text)',
+              GLOBAL: '*(:id|id)',
+              LIST_RENDERING: 'v-for',
+              RENDER_MODIFIERS: 'v-*(pre|once)',
+              SLOT: '*(v-slot|slot)',
+              TWO_WAY_BINDING: '*(v-model|v-model:*)',
+              UNIQUE: '*(ref|key|:ref|:key)',
             },
             groups: [
               'DEFINITION',

@@ -24,11 +24,11 @@
     "eslint-plugin-import-x": "catalog:"
   },
   "devDependencies": {
-    "eslint": "catalog:",
     "@eslint/js": "catalog:",
     "@types/eslint": "catalog:",
     "@typescript-eslint/eslint-plugin": "catalog:",
     "@typescript-eslint/parser": "catalog:",
+    "eslint": "catalog:",
     "eslint-plugin-eslint-comments": "catalog:",
     "eslint-plugin-jsdoc": "catalog:",
     "eslint-plugin-jsonc": "catalog:",

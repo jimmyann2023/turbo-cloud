@@ -7,6 +7,7 @@ import {
   ignores,
   importPluginConfig,
   javascript,
+  jsdoc,
   jsonc,
   node,
   perfectionist,
@@ -16,7 +17,6 @@ import {
   vue,
 } from './configs';
 import { customConfig } from './custom-config';
-import { jsdoc } from './configs/jsdoc';
 
 type FlatConfig = Linter.Config;
 

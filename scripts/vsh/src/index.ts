@@ -1,4 +1,5 @@
 import { colors, consola } from '@repo/node-utils';
+
 import cac from 'cac';
 
 import { defineLintCommand } from './lint';
