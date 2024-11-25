@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "name": "@repo/backend-mock",
-      "path": "apps/backend-mock",
+      "name": "@repo/commitlint-config",
+      "path": "internal/lint-configs/commitlint-config",
     },
     {
       "name": "@repo/eslint-config",
@@ -37,12 +37,16 @@
       "path": "packages/@core/base/typings",
     },
     {
-      "name": "@repo/styles",
+      "name": "styles",
       "path": "packages/styles",
     },
     {
       "name": "@repo/types",
       "path": "packages/types",
+    },
+    {
+      "name": "@repo/turbo-run",
+      "path": "scripts/turbo-run",
     },
     {
       "name": "@repo/vsh",
