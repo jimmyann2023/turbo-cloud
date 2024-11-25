@@ -13,8 +13,11 @@ packages:
   - docs
   - playground
 catalog:
+  '@ast-grep/napi': ^0.30.0
+  '@changesets/changelog-github': ^0.5.0
   '@changesets/cli': ^2.27.9
   '@changesets/git': ^3.0.1
+  '@clack/prompts': ^0.8.1
   '@eslint/js': ^9.15.0
   '@manypkg/get-packages': ^2.2.2
   '@intlify/unplugin-vue-i18n': ^6.0.0

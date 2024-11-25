@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "name": "@repo/backend-mock",
+      "path": "apps/backend-mock",
+    },
+    {
+      "name": "@repo/eslint-config",
+      "path": "internal/lint-configs/eslint-config",
+    },
+    {
+      "name": "@repo/prettier-config",
+      "path": "internal/lint-configs/prettier-config",
+    },
+    {
+      "name": "@repo/stylelint-config",
+      "path": "internal/lint-configs/stylelint-config",
+    },
+    {
+      "name": "@repo/node-utils",
+      "path": "internal/node-utils",
+    },
+    {
+      "name": "@repo/tsconfig",
+      "path": "internal/tsconfig",
+    },
+    {
+      "name": "@repo/vite-config",
+      "path": "internal/vite-config",
+    },
+    {
+      "name": "@repo-core/design",
+      "path": "packages/@core/base/design",
+    },
+    {
+      "name": "@repo-core/typings",
+      "path": "packages/@core/base/typings",
+    },
+    {
+      "name": "@repo/styles",
+      "path": "packages/styles",
+    },
+    {
+      "name": "@repo/types",
+      "path": "packages/types",
+    },
+    {
+      "name": "@repo/vsh",
+      "path": "scripts/vsh",
+    },
+  ],
+}
