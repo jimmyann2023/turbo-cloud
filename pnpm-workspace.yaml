@@ -21,13 +21,19 @@ catalog:
   '@commitlint/cli': ^19.5.0
   '@commitlint/config-conventional': ^19.5.0
   '@eslint/js': ^9.15.0
+  '@iconify/json': ^2.2.273
+  '@iconify/tailwind': ^1.1.3
   '@manypkg/get-packages': ^2.2.2
   '@intlify/unplugin-vue-i18n': ^6.0.0
   '@jspm/generator': ^2.4.1
   '@pnpm/workspace.read-manifest': ^2.2.1
   '@stylistic/stylelint-plugin': ^3.1.1
+  '@tailwindcss/nesting': 0.0.0-insiders.565cd3e
+  '@tailwindcss/typography': ^0.5.15
   '@types/archiver': ^6.0.3
   '@types/node': ^22.9.0
+  '@types/nprogress': ^0.2.3
+  '@types/postcss-import': ^14.0.3
   '@types/eslint': ^9.6.1
   '@types/html-minifier-terser': ^7.0.2
   '@typescript-eslint/eslint-plugin': ^8.14.0
@@ -36,6 +42,7 @@ catalog:
   '@vitejs/plugin-vue': ^5.2.0
   '@vitejs/plugin-vue-jsx': ^4.1.0
   archiver: ^7.0.1
+  autoprefixer: ^10.4.20
   cac: ^6.7.14
   chalk: ^5.3.0
   cheerio: 1.0.0
@@ -44,6 +51,7 @@ catalog:
   consola: ^3.2.3
   cross-env: ^7.0.3
   cspell: ^8.16.0
+  cssnano: ^7.0.6
   cz-git: ^1.11.0
   czg: ^1.11.0
   dayjs: ^1.11.13
@@ -85,6 +93,7 @@ catalog:
   postcss-import: ^16.1.0
   postcss-preset-env: ^10.1.0
   postcss-scss: ^4.0.9
+  prettier-plugin-tailwindcss: ^0.6.8
   prettier: ^3.3.3
   publint: ^0.2.12
   resolve.exports: ^2.0.2
@@ -101,6 +110,9 @@ catalog:
   stylelint-order: ^6.0.4
   stylelint-prettier: ^5.0.2
   stylelint-scss: ^6.9.0
+  tailwind-merge: ^2.5.4
+  tailwindcss: ^3.4.15
+  tailwindcss-animate: ^1.0.7
   unbuild: ^3.0.0-rc.11
   turbo: ^2.3.0
   typescript: ^5.6.3

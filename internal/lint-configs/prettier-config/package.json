@@ -13,6 +13,7 @@
     }
   },
   "dependencies": {
-    "prettier": "catalog:"
+    "prettier": "catalog:",
+    "prettier-plugin-tailwindcss": "catalog:"
   }
 }

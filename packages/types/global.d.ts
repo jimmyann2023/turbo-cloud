@@ -17,6 +17,6 @@ export interface ApplicationConfig {
 
 declare global {
   interface Window {
-    _CLOUD_SYSTEM_WEB_CONF_: CloudSystemWebConfigRaw;
+    _CLOUD_SYSTEM_CONF_: CloudSystemWebConfigRaw;
   }
 }

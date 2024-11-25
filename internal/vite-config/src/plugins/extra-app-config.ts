@@ -14,7 +14,7 @@ interface PluginOptions {
 }
 
 const GLOBAL_CONFIG_FILE_NAME = '_app.config.js';
-const CLOUD_SYSTEM_WEB_CONF = '_CLOUD_SYSTEM_WEB_CONF_';
+const CLOUD_SYSTEM_CONF = '_CLOUD_SYSTEM_CONF_';
 
 /**
  * 用于将配置文件抽离出来并注入到项目中
@@ -72,12 +72,12 @@ async function viteExtraAppConfigPlugin({
 
 async function getConfigSource() {
   const config = await loadEnv();
-  const windowVariable = `window.${CLOUD_SYSTEM_WEB_CONF}`;
+  const windowVariable = `window.${CLOUD_SYSTEM_CONF}`;
   // 确保变量不会被修改
   let source = `${windowVariable}=${JSON.stringify(config)};`;
   source += `
     Object.freeze(${windowVariable});
-    Object.defineProperty(window, "${CLOUD_SYSTEM_WEB_CONF}", {
+    Object.defineProperty(window, "${CLOUD_SYSTEM_CONF}", {
       configurable: false,
       writable: false,
     });
