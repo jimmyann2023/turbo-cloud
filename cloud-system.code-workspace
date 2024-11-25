@@ -21,6 +21,10 @@
       "path": "internal/node-utils",
     },
     {
+      "name": "@repo/tailwind-config",
+      "path": "internal/tailwind-config",
+    },
+    {
       "name": "@repo/tsconfig",
       "path": "internal/tsconfig",
     },
