@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "jimmyann/turbo-cloud"
+      "repo": "jimmyann2023/turbo-cloud"
     }
   ],
   "commit": false,
