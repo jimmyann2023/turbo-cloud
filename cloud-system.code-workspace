@@ -53,6 +53,10 @@
       "path": "packages/@core/composables",
     },
     {
+      "name": "@repo-core/preferences",
+      "path": "packages/@core/preferences",
+    },
+    {
       "name": "styles",
       "path": "packages/styles",
     },
