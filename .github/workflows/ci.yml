@@ -111,7 +111,7 @@ jobs:
     name: CI OK
     if: github.repository == 'jimmyann2023/turbo-cloud'
     runs-on: ubuntu-latest
-    needs: [ test, check, lint ]
+    needs: [test, check, lint]
     env:
       FAILURE: ${{ contains(join(needs.*.result, ','), 'failure') }}
     steps:

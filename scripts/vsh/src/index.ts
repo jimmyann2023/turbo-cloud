@@ -34,7 +34,7 @@ try {
   vsh.usage('vsh');
   vsh.help();
   vsh.parse();
-} catch (e) {
-  consola.error(e);
+} catch (error) {
+  consola.error(error);
   process.exit(1);
 }

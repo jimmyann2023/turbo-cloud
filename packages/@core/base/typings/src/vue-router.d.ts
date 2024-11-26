@@ -1,5 +1,3 @@
-import type { RouteRecordRaw } from 'vue-router';
-
 import type { Component } from 'vue';
 
 interface RouteMeta {
@@ -116,4 +114,6 @@ interface RouteMeta {
   title: string;
 }
 
-export type { RouteMeta, RouteRecordRaw };
+export type { RouteMeta };
+
+export { type RouteRecordRaw } from 'vue-router';

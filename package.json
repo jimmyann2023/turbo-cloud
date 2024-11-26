@@ -28,7 +28,6 @@
   "devDependencies": {
     "@changesets/changelog-github": "catalog:",
     "@changesets/cli": "catalog:",
-    "@types/node": "catalog:",
     "@repo/commitlint-config": "workspace:*",
     "@repo/eslint-config": "workspace:*",
     "@repo/prettier-config": "workspace:*",
@@ -38,19 +37,24 @@
     "@repo/turbo-run": "workspace:*",
     "@repo/vite-config": "workspace:*",
     "@repo/vsh": "workspace:*",
+    "@types/node": "catalog:",
     "@vitejs/plugin-vue": "catalog:",
     "@vitejs/plugin-vue-jsx": "catalog:",
     "cross-env": "catalog:",
+    "cspell": "catalog:",
     "happy-dom": "catalog:",
-    "is-ci": "catalog:",
     "husky": "catalog:",
+    "is-ci": "catalog:",
     "lint-staged": "catalog:",
     "rimraf": "catalog:",
-    "cspell": "catalog:",
+    "tailwindcss": "catalog:",
     "turbo": "catalog:",
     "typescript": "^5.6.3",
     "unbuild": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "vitest": "catalog:",
+    "vue": "catalog:",
+    "vue-tsc": "catalog:"
   },
   "engines": {
     "node": ">=20.10.0",
@@ -64,6 +68,9 @@
       }
     },
     "overrides": {
+      "@ast-grep/napi": "catalog:",
+      "@ctrl/tinycolor": "catalog:",
+      "clsx": "catalog:",
       "vue": "catalog:"
     },
     "neverBuiltDependencies": [

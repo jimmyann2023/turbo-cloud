@@ -33,16 +33,20 @@
       "path": "internal/vite-config",
     },
     {
-      "name": "@repo-core/composables",
-      "path": "packages/@core/base/composables",
-    },
-    {
       "name": "@repo-core/design",
       "path": "packages/@core/base/design",
     },
     {
+      "name": "@repo-core/shared",
+      "path": "packages/@core/base/shared",
+    },
+    {
       "name": "@repo-core/typings",
       "path": "packages/@core/base/typings",
+    },
+    {
+      "name": "@repo-core/composables",
+      "path": "packages/@core/composables",
     },
     {
       "name": "styles",

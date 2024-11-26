@@ -14,6 +14,7 @@ import {
   prettier,
   turbo,
   typescript,
+  unicorn,
   vue,
 } from './configs';
 import { customConfig } from './custom-config';
@@ -42,6 +43,7 @@ async function defineConfig(config: FlatConfig[] = []) {
     jsdoc(),
     command(),
     turbo(),
+    unicorn(),
     ...customConfig,
     ...config,
   ];

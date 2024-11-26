@@ -27,6 +27,7 @@
     }
   },
   "dependencies": {
+    "@repo-core/shared": "workspace:*",
     "@vueuse/core": "catalog:",
     "radix-vue": "catalog:",
     "sortablejs": "catalog:",

@@ -1,4 +1,5 @@
 export * from './use-is-mobile';
+export * from './use-namespace';
 
 export {
   useEmitAsProps,

@@ -20,6 +20,7 @@ catalog:
   '@clack/prompts': ^0.8.1
   '@commitlint/cli': ^19.5.0
   '@commitlint/config-conventional': ^19.5.0
+  '@ctrl/tinycolor': ^4.1.0
   '@eslint/js': ^9.15.0
   '@iconify/json': ^2.2.273
   '@iconify/tailwind': ^1.1.3
@@ -30,17 +31,27 @@ catalog:
   '@stylistic/stylelint-plugin': ^3.1.1
   '@tailwindcss/nesting': 0.0.0-insiders.565cd3e
   '@tailwindcss/typography': ^0.5.15
+  '@tanstack/vue-query': ^5.60.5
+  '@tanstack/vue-store': ^0.5.7
   '@types/archiver': ^6.0.3
   '@types/node': ^22.9.0
   '@types/nprogress': ^0.2.3
   '@types/postcss-import': ^14.0.3
   '@types/eslint': ^9.6.1
   '@types/html-minifier-terser': ^7.0.2
+  '@types/lodash.clonedeep': ^4.5.9
+  '@types/lodash.get': ^4.4.9
+  '@types/sortablejs': ^1.15.8
   '@typescript-eslint/eslint-plugin': ^8.14.0
   '@typescript-eslint/parser': ^8.14.0
   '@vite-pwa/vitepress': ^0.5.3
   '@vitejs/plugin-vue': ^5.2.0
   '@vitejs/plugin-vue-jsx': ^4.1.0
+  '@vue/shared': ^3.5.13
+  '@vue/test-utils': ^2.4.6
+  '@vue/reactivity': ^3.5.13
+  '@vueuse/core': ^11.2.0
+  '@vueuse/integrations': ^11.2.0
   archiver: ^7.0.1
   autoprefixer: ^10.4.20
   cac: ^6.7.14
@@ -48,6 +59,7 @@ catalog:
   cheerio: 1.0.0
   circular-dependency-scanner: ^2.3.0
   commitlint-plugin-function-rules: ^4.0.1
+  clsx: ^2.1.1
   consola: ^3.2.3
   cross-env: ^7.0.3
   cspell: ^8.16.0
@@ -55,6 +67,7 @@ catalog:
   cz-git: ^1.11.0
   czg: ^1.11.0
   dayjs: ^1.11.13
+  defu: ^6.1.4
   depcheck: ^1.4.7
   dotenv: ^16.4.5
   eslint: ^9.15.0
@@ -83,6 +96,8 @@ catalog:
   husky: ^9.1.6
   jsonc-eslint-parser: ^2.4.0
   lint-staged: ^15.2.10
+  lodash.clonedeep: ^4.5.0
+  lodash.get: ^4.4.2
   nitropack: ^2.10.4
   nprogress: ^0.2.0
   ora: ^8.1.1
@@ -96,11 +111,13 @@ catalog:
   prettier-plugin-tailwindcss: ^0.6.8
   prettier: ^3.3.3
   publint: ^0.2.12
+  radix-vue: ^1.9.9
   resolve.exports: ^2.0.2
   rimraf: ^6.0.1
   rollup: ^4.27.2
   rollup-plugin-visualizer: ^5.12.0
   sass: 1.80.6
+  sortablejs: ^1.15.3
   stylelint: ^16.10.0
   stylelint-config-recess-order: ^5.1.1
   stylelint-config-recommended: ^14.0.1
@@ -113,6 +130,7 @@ catalog:
   tailwind-merge: ^2.5.4
   tailwindcss: ^3.4.15
   tailwindcss-animate: ^1.0.7
+  theme-colors: ^0.1.0
   unbuild: ^3.0.0-rc.11
   turbo: ^2.3.0
   typescript: ^5.6.3
@@ -129,5 +147,6 @@ catalog:
   vue: ^3.5.13
   vue-eslint-parser: ^9.4.3
   vue-router: ^4.4.5
+  vue-tsc: ^2.1.10
   vxe-pc-ui: ^4.2.55
   vxe-table: ^4.8.14

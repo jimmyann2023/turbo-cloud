@@ -7,12 +7,7 @@
     }
   ],
   "commit": false,
-  "fixed": [
-    [
-      "@repo-core/*",
-      "@repo/*"
-    ]
-  ],
+  "fixed": [["@repo-core/*", "@repo/*"]],
   "snapshot": {
     "prereleaseTemplate": "{tag}-{datetime}"
   },
