@@ -37,6 +37,10 @@
       "path": "packages/@core/base/design",
     },
     {
+      "name": "icons",
+      "path": "packages/@core/base/icons",
+    },
+    {
       "name": "@repo-core/shared",
       "path": "packages/@core/base/shared",
     },

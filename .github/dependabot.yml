@@ -6,7 +6,7 @@ updates:
       interval: daily
     groups:
       non-breaking-changes:
-        update-types: [ minor, patch ]
+        update-types: [minor, patch]
 
   - package-ecosystem: github-actions
     directory: '/'
@@ -14,4 +14,4 @@ updates:
       interval: weekly
     groups:
       non-breaking-changes:
-        update-types: [ minor, patch ]
+        update-types: [minor, patch]
