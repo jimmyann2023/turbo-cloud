@@ -18,6 +18,7 @@ function defineConfig(
   // 根据包是否存在 index.html,自动判断类型
   if (projectType === 'auto') {
     const htmlPath = join(process.cwd(), 'index.html');
+    console.log('htmlPath', htmlPath);
     projectType = existsSync(htmlPath) ? 'application' : 'library';
   }
 

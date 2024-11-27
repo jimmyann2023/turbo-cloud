@@ -37,7 +37,7 @@
       "path": "packages/@core/base/design",
     },
     {
-      "name": "icons",
+      "name": "@repo-core/icons",
       "path": "packages/@core/base/icons",
     },
     {
@@ -57,12 +57,20 @@
       "path": "packages/@core/preferences",
     },
     {
+      "name": "@repo-core/shadcn-ui",
+      "path": "packages/@core/ui-kit/shadcn-ui",
+    },
+    {
       "name": "styles",
       "path": "packages/styles",
     },
     {
       "name": "@repo/types",
       "path": "packages/types",
+    },
+    {
+      "name": "playground",
+      "path": "playground",
     },
     {
       "name": "@repo/turbo-run",

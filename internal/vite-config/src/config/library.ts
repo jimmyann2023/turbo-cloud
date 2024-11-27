@@ -36,7 +36,7 @@ function defineLibraryConfig(userConfigPromise?: DefineLibraryOptions) {
     const packageConfig: UserConfig = {
       build: {
         lib: {
-          entry: 'src/index.ts',
+          entry: 'src/index.vue',
           fileName: () => 'index.mjs',
           formats: ['es'],
         },
