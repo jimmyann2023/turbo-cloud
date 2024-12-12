@@ -13,9 +13,9 @@
   },
   "devDependencies": {
     "@repo-core/shadcn-ui": "workspace:*",
-    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue": "^5.2.1",
     "radix-vue": "catalog:",
-    "typescript": "~5.6.2",
+    "typescript": "~5.7.2",
     "vite": "^5.4.10",
     "vue-tsc": "^2.1.8"
   }
