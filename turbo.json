@@ -31,19 +31,11 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**"]
     },
-    "@cloud/backend-mock#build": {
-      "dependsOn": ["^build"],
-      "outputs": [".nitro/**", ".output/**"]
-    },
-    "test:e2e": {},
     "dev": {
       "dependsOn": [],
       "outputs": [],
       "cache": false,
       "persistent": true
-    },
-    "typecheck": {
-      "outputs": []
     }
   }
 }
