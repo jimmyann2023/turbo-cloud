@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "name": "@repo/docs",
+      "path": "docs",
+    },
+    {
       "name": "@repo/commitlint-config",
       "path": "internal/lint-configs/commitlint-config",
     },
@@ -61,7 +65,7 @@
       "path": "packages/@core/ui-kit/shadcn-ui",
     },
     {
-      "name": "styles",
+      "name": "@repo/styles",
       "path": "packages/styles",
     },
     {

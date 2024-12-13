@@ -1,0 +1,32 @@
+{
+  "name": "@repo/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "imports": {
+    "#/*": {
+      "node": "./src/_env/node/*",
+      "default": "./src/_env/*"
+    }
+  },
+  "dependencies": {
+    "@repo-core/shadcn-ui": "workspace:*",
+    "@repo/styles": "workspace:*",
+    "ant-design-vue": "catalog:",
+    "lucide-vue-next": "catalog:",
+    "medium-zoom": "catalog:",
+    "radix-vue": "catalog:",
+    "vitepress-plugin-group-icons": "catalog:"
+  },
+  "devDependencies": {
+    "@nolebase/vitepress-plugin-git-changelog": "catalog:",
+    "@repo/vite-config": "workspace:*",
+    "@vite-pwa/vitepress": "catalog:",
+    "vitepress": "catalog:",
+    "vue": "catalog:"
+  }
+}
