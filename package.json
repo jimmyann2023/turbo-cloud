@@ -6,10 +6,7 @@
     "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 turbo build",
     "build:analyze": "turbo build:analyze",
     "changeset": "pnpm exec changeset",
-    "check": "pnpm run check:circular && pnpm run check:dep && pnpm run check:type && pnpm check:cspell",
-    "check:circular": "vsh check-circular",
-    "check:cspell": "cspell lint **/*.ts **/README.md .changeset/*.md --no-progress",
-    "check:dep": "vsh check-dep",
+    "check": "pnpm run check:type && pnpm run lint",
     "check:type": "turbo run typecheck",
     "clean": "node ./scripts/clean.mjs",
     "commit": "czg",
@@ -20,9 +17,8 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky",
     "preview": "turbo-run preview",
-    "publint": "vsh publint",
-    "reinstall": "pnpm clean --del-lock && pnpm install",
-    "update:deps": "npx taze -r -w",
+    "test": "turbo run test",
+    "release": "pnpm build && pnpm exec changeset publish",
     "version": "pnpm exec changeset version && pnpm install --no-frozen-lockfile"
   },
   "devDependencies": {
