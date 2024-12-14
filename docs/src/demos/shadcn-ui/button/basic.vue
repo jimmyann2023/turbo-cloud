@@ -1,3 +1,4 @@
+<!-- TODO: 基础用法还是有点问题 -->
 <script setup lang="ts">
 import { Button } from '@repo-core/shadcn-ui';
 </script>
