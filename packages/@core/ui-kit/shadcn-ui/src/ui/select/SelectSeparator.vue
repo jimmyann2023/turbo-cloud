@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-import { cn } from '@vben-core/shared/utils';
+import { cn } from '@repo-core/shared/utils';
+
 import { SelectSeparator, type SelectSeparatorProps } from 'radix-vue';
 
 const props = defineProps<{ class?: any } & SelectSeparatorProps>();
